@@ -1,4 +1,4 @@
-#property()
+#property = criar atributos gerenciados
 
 class Foo:
     def __init__(self, x=None):
