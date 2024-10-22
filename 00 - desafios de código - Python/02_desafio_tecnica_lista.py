@@ -23,10 +23,10 @@ Use o método split(',') para dividir a string de entrada em uma lista de string
 
 Utilize uma list comprehension para remover espaços em branco extras ao redor de cada string, usando o método strip().
 
-Entrada
+Entrada:
 Uma lista de strings onde cada string representa o nome de um produto vendido.
 
-Saída
+Saída:
 A string com o nome do produto mais vendido. Se houver empate, retorne qualquer um dos produtos mais vendidos.
 '''
 

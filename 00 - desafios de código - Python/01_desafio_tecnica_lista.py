@@ -19,10 +19,10 @@ Usar a função list() para converter o objeto map resultante em uma lista de in
 
 Essa lista de inteiros representará os valores de vendas que serão utilizados para calcular o total e a média mensal de vendas em outra função.
 
-Entrada
+Entrada:
 Uma lista com 12 números inteiros, cada um representando o número de vendas realizadas em um mês do ano.
 
-Saída
+Saída:
 Um único número inteiro representando o total de vendas e um número decimal representando a média mensal de vendas, separados por um espaço.
 '''
 
