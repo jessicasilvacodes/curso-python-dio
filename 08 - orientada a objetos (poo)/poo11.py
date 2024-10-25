@@ -21,33 +21,41 @@ class ControleRemoto(ABC):
 class ControleTV(ControleRemoto):
     def ligar(self):
         print("Ligando a TV...")
-        print("Ligada!")
+        print("ON!")
 
     def desligar(self):
         print("Desligando a TV...")
-        print("Desligada!")
+        print("OFF!")
 
     @property
     def marca(self):
-        return "Philco"
+        return "// Philco"
 
 
 class ControleArCondicionado(ControleRemoto):
     def ligar(self):
         print("Ligando o Ar Condicionado...")
-        print("Ligado!")
+        print("ON!")
 
     def desligar(self):
         print("Desligando o Ar Condicionado...")
-        print("Desligado!")
+        print("OFF!")
 
     @property
     def marca(self):
-        return "LG"
+        return "// LG"
 
 
 controle = ControleTV()
-controle.ligar()
-controle.desligar()
-print(controle.marca)
 
+controle.ligar()
+print(controle.marca)
+controle.desligar()
+
+#---
+
+controle = ControleArCondicionado()
+
+controle.ligar()
+print(controle.marca)
+controle.desligar()
